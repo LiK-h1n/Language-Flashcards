@@ -6,10 +6,12 @@ location = "centralindia"
 
 def get_speech(language_code, word):
     speech_config = speechsdk.SpeechConfig(subscription=key, region=location)
-    audio_config = speechsdk.audio.AudioOutputConfig(use_default_speaker=True)
     speech_config.speech_synthesis_voice_name = language_code
-    speech_synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config, audio_config=audio_config)
-    return speech_synthesizer.speak_text_async(word).get()
+    file_name = "outputaudio.wav"
+    file_config = speechsdk.audio.AudioOutputConfig(filename=file_name)
+    speech_synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config, audio_config=file_config)
+    audio = speech_synthesizer.speak_text_async(word).get()
+    return audio
 
 
 if __name__ == "__main__":
