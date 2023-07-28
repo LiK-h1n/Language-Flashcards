@@ -2,7 +2,7 @@
 
 The Language Flashcard App is a simple and interactive language learning web application built using Streamlit. It allows users to learn and practice vocabulary in 71 different languages. The app provides 1000 flashcards with words in the chosen language and their translations. Users can flip the cards to reveal the translations and listen to the pronunciation using Azure Speech Services.
 
-[Project Link]()
+[Project Link](language-flashcards.azurewebsites.net)
 
 [Project Demo Link]()
 
