@@ -4,7 +4,7 @@ The Language Flashcard App is a simple and interactive language learning web app
 
 [Project Link](https://language-flashcards.azurewebsites.net)
 
-[Project Demo Link]()
+[Project Demo Link](https://youtu.be/UqBAljFUS3w)
 
 ## Features
 * Choose from 71 supported languages.
