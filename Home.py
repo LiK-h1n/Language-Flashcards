@@ -5,14 +5,15 @@ from supported_languages import get_language_codes
 from speech_service import get_speech
 
 
-def show_word_or_translation(value, button_needed=False):
+def show_word_or_translation(value, audio_needed=False):
     st.markdown("-----")
     st.subheader(value)
-    if button_needed:
-        button = st.button("PRONOUNCE")
+    if audio_needed:
+        get_speech(language_dictionary[language][0], st.session_state["translation"])
+        audio_file = open("outputaudio.wav", "rb")
+        audio_bytes = audio_file.read()
+        st.audio(audio_bytes)
     st.markdown("-----")
-    if button_needed:
-        return button
 
 
 page_bg_img = """
@@ -76,7 +77,7 @@ if language != "":
             st.experimental_rerun()
 
         if pronounce_button:
-            get_speech(language_dictionary[language][0], st.session_state["translation"])
+            pass
 
         if reveal_button:
             st.session_state["reveal"] = True
