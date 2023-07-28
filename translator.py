@@ -6,14 +6,14 @@ endpoint = "https://api.cognitive.microsofttranslator.com"
 location = "centralindia"
 
 
-def translate(language, word):
+def translate(language_code, word):
     path = '/translate'
     constructed_url = endpoint + path
 
     params = {
         'api-version': '3.0',
         'from': 'en',
-        'to': language
+        'to': language_code
     }
     headers = {
         'Ocp-Apim-Subscription-Key': key,
@@ -33,4 +33,10 @@ def translate(language, word):
 
 
 if __name__ == "__main__":
-    print(translate("fr", "Hello"))
+    from supported_languages import get_language_codes
+    from word import get_random_word
+
+    language_code = get_language_codes()["Malayalam"]
+    word = get_random_word()
+    translation = translate(language_code[1], word)
+    print(word, translation)
