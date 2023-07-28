@@ -39,4 +39,5 @@ The Language Flashcard App is a simple and interactive language learning web app
 ![lf2](https://github.com/Nikhil-Idiculla/Language-Flashcards/assets/93204425/2861b81b-d590-4ee9-9877-499ec0e38074)
 ![lf3](https://github.com/Nikhil-Idiculla/Language-Flashcards/assets/93204425/f751cc16-b2e1-45a3-9e7a-ab45aa68aff2)
 ![lf4](https://github.com/Nikhil-Idiculla/Language-Flashcards/assets/93204425/b57b7308-5464-446e-b18f-cd0b90ab0bea)
-![lf5](https://github.com/Nikhil-Idiculla/Language-Flashcards/assets/93204425/3ad20d82-689b-4b59-8b06-9c503bf973ab)
+![lf5](https://github.com/Nikhil-Idiculla/Language-Flashcards/assets/93204425/eb0fd1e8-164f-43e6-b171-c68a8fe636b9)
+![lf6](https://github.com/Nikhil-Idiculla/Language-Flashcards/assets/93204425/3c9ff9ca-c3a7-4904-956d-2336a879ac31)
