@@ -35,3 +35,8 @@ The Language Flashcard App is a simple and interactive language learning web app
 * Click the "NEXT" button to display a new random flashcard with a word in the chosen language.
 
 ## Screenshots
+![lf1](https://github.com/Nikhil-Idiculla/Language-Flashcards/assets/93204425/d4fd589d-99af-4b81-99d0-2e5ce1e1de29)
+![lf2](https://github.com/Nikhil-Idiculla/Language-Flashcards/assets/93204425/2861b81b-d590-4ee9-9877-499ec0e38074)
+![lf3](https://github.com/Nikhil-Idiculla/Language-Flashcards/assets/93204425/f751cc16-b2e1-45a3-9e7a-ab45aa68aff2)
+![lf4](https://github.com/Nikhil-Idiculla/Language-Flashcards/assets/93204425/b57b7308-5464-446e-b18f-cd0b90ab0bea)
+![lf5](https://github.com/Nikhil-Idiculla/Language-Flashcards/assets/93204425/3ad20d82-689b-4b59-8b06-9c503bf973ab)
